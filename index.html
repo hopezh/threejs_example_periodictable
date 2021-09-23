@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    <head>
+        <title>Testing Three.js</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="text/css" rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body style="background-color: rgb(43, 43, 43)">
+        <div id="info">
+            <a href="https://threejs.org" target="_blank" rel="noopener"
+                >three.js</a
+            >
+            css3d - periodic table.
+        </div>
+        <div id="container"></div>
+        <div id="menu">
+            <button id="table">Table</button>
+            <button id="sphere">Sphere</button>
+            <button id="helix">Helix</button>
+            <button id="grid">Grid</button>
+            <button id="column">COLUMN</button>
+            <button id="row">ROW</button>
+            <button id="random">RANDOM</button>
+        </div>
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script
+            id="MathJax-script"
+            async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        ></script>
+
+        <script type="module" src="./src/periodic_table.js"></script>
+    </body>
 </html>
