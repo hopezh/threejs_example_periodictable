@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "/test-vite2repo/",
+    base: "/threejs_example_periodictable/",
 });
